@@ -1,0 +1,1272 @@
+fileFormatVersion: 2
+guid: 740634697d79ea847b153970c9b33349
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5140669834280510633
+    second: PC Computer - Undertale - The Human Souls_0
+  - first:
+      213: -4250875140207189995
+    second: PC Computer - Undertale - The Human Souls_1
+  - first:
+      213: 6861320830590175207
+    second: PC Computer - Undertale - The Human Souls_2
+  - first:
+      213: 5092339803775548518
+    second: PC Computer - Undertale - The Human Souls_3
+  - first:
+      213: 6329298273151081364
+    second: PC Computer - Undertale - The Human Souls_4
+  - first:
+      213: 5590912277894915679
+    second: PC Computer - Undertale - The Human Souls_5
+  - first:
+      213: -4435880706391271884
+    second: PC Computer - Undertale - The Human Souls_6
+  - first:
+      213: 4911056344779719102
+    second: PC Computer - Undertale - The Human Souls_7
+  - first:
+      213: -471057767970332817
+    second: PC Computer - Undertale - The Human Souls_8
+  - first:
+      213: 2446441535022831900
+    second: PC Computer - Undertale - The Human Souls_9
+  - first:
+      213: -6103840051226818599
+    second: PC Computer - Undertale - The Human Souls_10
+  - first:
+      213: -5380589285235152235
+    second: PC Computer - Undertale - The Human Souls_11
+  - first:
+      213: 7740654542198437814
+    second: PC Computer - Undertale - The Human Souls_12
+  - first:
+      213: 6193242939113055698
+    second: PC Computer - Undertale - The Human Souls_13
+  - first:
+      213: 1171661226975434589
+    second: PC Computer - Undertale - The Human Souls_14
+  - first:
+      213: 1981104368814053041
+    second: PC Computer - Undertale - The Human Souls_15
+  - first:
+      213: 4811149107900514997
+    second: PC Computer - Undertale - The Human Souls_16
+  - first:
+      213: 1579964375906224451
+    second: PC Computer - Undertale - The Human Souls_17
+  - first:
+      213: 2389990751418551440
+    second: PC Computer - Undertale - The Human Souls_18
+  - first:
+      213: -3972737989908429247
+    second: PC Computer - Undertale - The Human Souls_19
+  - first:
+      213: 5746221596977324375
+    second: PC Computer - Undertale - The Human Souls_20
+  - first:
+      213: 3697406430709938384
+    second: PC Computer - Undertale - The Human Souls_21
+  - first:
+      213: 3164354221479713533
+    second: PC Computer - Undertale - The Human Souls_22
+  - first:
+      213: -5441197067457677101
+    second: PC Computer - Undertale - The Human Souls_23
+  - first:
+      213: -4172642610509917703
+    second: PC Computer - Undertale - The Human Souls_24
+  - first:
+      213: 4234112193974791674
+    second: PC Computer - Undertale - The Human Souls_25
+  - first:
+      213: 4357771703831293027
+    second: PC Computer - Undertale - The Human Souls_26
+  - first:
+      213: -191359383849892831
+    second: PC Computer - Undertale - The Human Souls_27
+  - first:
+      213: 8579340283044465066
+    second: PC Computer - Undertale - The Human Souls_28
+  - first:
+      213: -4187089425394632897
+    second: PC Computer - Undertale - The Human Souls_29
+  - first:
+      213: 4818577099352791952
+    second: PC Computer - Undertale - The Human Souls_30
+  - first:
+      213: -9110148132906817405
+    second: PC Computer - Undertale - The Human Souls_31
+  - first:
+      213: 1345597734613741469
+    second: PC Computer - Undertale - The Human Souls_32
+  - first:
+      213: -4061793852234432015
+    second: PC Computer - Undertale - The Human Souls_33
+  - first:
+      213: 5764151129575350944
+    second: PC Computer - Undertale - The Human Souls_34
+  - first:
+      213: -7156484339260384902
+    second: PC Computer - Undertale - The Human Souls_35
+  - first:
+      213: -8444631659519168952
+    second: PC Computer - Undertale - The Human Souls_36
+  - first:
+      213: 1593370980094573570
+    second: PC Computer - Undertale - The Human Souls_37
+  - first:
+      213: 2875638411785286763
+    second: PC Computer - Undertale - The Human Souls_38
+  - first:
+      213: -4266522331470779786
+    second: PC Computer - Undertale - The Human Souls_39
+  - first:
+      213: 1633954295095220706
+    second: PC Computer - Undertale - The Human Souls_40
+  - first:
+      213: 1038312520899324526
+    second: PC Computer - Undertale - The Human Souls_41
+  - first:
+      213: -6783719752070728406
+    second: PC Computer - Undertale - The Human Souls_42
+  - first:
+      213: -6992411029433110187
+    second: PC Computer - Undertale - The Human Souls_43
+  - first:
+      213: 486891995744543183
+    second: PC Computer - Undertale - The Human Souls_44
+  - first:
+      213: -912980233181003976
+    second: PC Computer - Undertale - The Human Souls_45
+  - first:
+      213: -1234400842447045322
+    second: PC Computer - Undertale - The Human Souls_46
+  - first:
+      213: 3271436912803340298
+    second: PC Computer - Undertale - The Human Souls_47
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 768
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bd42ca50ca8a8b0800000000000000
+      internalID: -5140669834280510633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 748
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5106963059bd105c0800000000000000
+      internalID: -4250875140207189995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 722
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7c05d41fe483f50800000000000000
+      internalID: 6861320830590175207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 687
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cbf973210aba640800000000000000
+      internalID: 5092339803775548518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 687
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bd9a0de3f26d750800000000000000
+      internalID: 6329298273151081364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 660
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56eb464819e69d40800000000000000
+      internalID: 5590912277894915679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 660
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4361a85fff59072c0800000000000000
+      internalID: -4435880706391271884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_7
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 643
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb10686c9b3972440800000000000000
+      internalID: 4911056344779719102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 643
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f907fa4777679f0800000000000000
+      internalID: -471057767970332817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 643
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c191cc24d9183f120800000000000000
+      internalID: 2446441535022831900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 643
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7c2dc10ddca4ba0800000000000000
+      internalID: -6103840051226818599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 601
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a294b7d8e4455b0800000000000000
+      internalID: -5380589285235152235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 574
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b770cc5b445c6b60800000000000000
+      internalID: 7740654542198437814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_13
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 548
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5a781d3a1d2f550800000000000000
+      internalID: 6193242939113055698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_14
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 548
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5718fe9da3924010800000000000000
+      internalID: 1171661226975434589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_15
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 548
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6d2265deb4e7b10800000000000000
+      internalID: 1981104368814053041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_16
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b209d18f92a4c240800000000000000
+      internalID: 4811149107900514997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34989a79a392de510800000000000000
+      internalID: 1579964375906224451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 522
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c85cafce3fa2120800000000000000
+      internalID: 2389990751418551440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1460fcdb8dffdd8c0800000000000000
+      internalID: -3972737989908429247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_20
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 454
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751e280091eaebf40800000000000000
+      internalID: 5746221596977324375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 412
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8f5bc1f83df4330800000000000000
+      internalID: 3697406430709938384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 388
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa5ec2266b0aeb20800000000000000
+      internalID: 3164354221479713533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_23
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 346
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8b949881cfc74b0800000000000000
+      internalID: -5441197067457677101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_24
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 322
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1d5e147abc716c0800000000000000
+      internalID: -4172642610509917703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_25
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 298
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd640d6b9692ca30800000000000000
+      internalID: 4234112193974791674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 274
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36cec13b64ae97c30800000000000000
+      internalID: 4357771703831293027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 250
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124803d77a7285df0800000000000000
+      internalID: -191359383849892831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 250
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9801a3880ff0770800000000000000
+      internalID: 8579340283044465066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 250
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37fe8c0a5874e5c0800000000000000
+      internalID: -4187089425394632897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_30
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 250
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b51c987560fd240800000000000000
+      internalID: 4818577099352791952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_31
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 250
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388a6ee6a80429180800000000000000
+      internalID: -9110148132906817405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 250
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fe836a2068ca210800000000000000
+      internalID: 1345597734613741469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f183bef20c91a7c0800000000000000
+      internalID: -4061793852234432015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_34
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 184
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2610e99e06eff40800000000000000
+      internalID: 5764151129575350944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_35
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a791dbdf86f0fac90800000000000000
+      internalID: -7156484339260384902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_36
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 135
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ea75b4f34aeca80800000000000000
+      internalID: -8444631659519168952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_37
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 68
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20cf3ffd67acc1610800000000000000
+      internalID: 1593370980094573570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_38
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 68
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b643ee456e158e720800000000000000
+      internalID: 2875638411785286763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_39
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 68
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67aa9666b844ac4c0800000000000000
+      internalID: -4266522331470779786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 68
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9df5a36c8fca610800000000000000
+      internalID: 1633954295095220706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 68
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a6b0e8cb3d86e00800000000000000
+      internalID: 1038312520899324526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_42
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 68
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25f502c3d26bd1a0800000000000000
+      internalID: -6783719752070728406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 68
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551bd135737f5fe90800000000000000
+      internalID: -6992411029433110187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_44
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 68
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1a552c0b9c1c600800000000000000
+      internalID: 486891995744543183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_45
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 68
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ffa4aa0517453f0800000000000000
+      internalID: -912980233181003976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_46
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 68
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d308359f68edee0800000000000000
+      internalID: -1234400842447045322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Undertale - The Human Souls_47
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 68
+        width: 15
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a006eb41a8a766d20800000000000000
+      internalID: 3271436912803340298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
