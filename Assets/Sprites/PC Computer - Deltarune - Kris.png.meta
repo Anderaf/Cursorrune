@@ -1,0 +1,1914 @@
+fileFormatVersion: 2
+guid: 90e0d73d82f6314448424d73974d1396
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2089911992307136876
+    second: PC Computer - Deltarune - Kris_0
+  - first:
+      213: -8608621868911300229
+    second: PC Computer - Deltarune - Kris_1
+  - first:
+      213: 354684592512675576
+    second: PC Computer - Deltarune - Kris_2
+  - first:
+      213: -9205074950366439201
+    second: PC Computer - Deltarune - Kris_3
+  - first:
+      213: 3255595246832027848
+    second: PC Computer - Deltarune - Kris_4
+  - first:
+      213: 5385046302009707670
+    second: PC Computer - Deltarune - Kris_5
+  - first:
+      213: 4144551937887734479
+    second: PC Computer - Deltarune - Kris_6
+  - first:
+      213: -76793090205626302
+    second: PC Computer - Deltarune - Kris_7
+  - first:
+      213: -8113526924657025370
+    second: PC Computer - Deltarune - Kris_8
+  - first:
+      213: -5098356871948922711
+    second: PC Computer - Deltarune - Kris_9
+  - first:
+      213: -544368013485203792
+    second: PC Computer - Deltarune - Kris_10
+  - first:
+      213: -7359990933543418356
+    second: PC Computer - Deltarune - Kris_11
+  - first:
+      213: -3072174744958827120
+    second: PC Computer - Deltarune - Kris_12
+  - first:
+      213: 4702049712121518762
+    second: PC Computer - Deltarune - Kris_13
+  - first:
+      213: 2294698216704988066
+    second: PC Computer - Deltarune - Kris_14
+  - first:
+      213: 7055820586484406827
+    second: PC Computer - Deltarune - Kris_15
+  - first:
+      213: -2386353844702071485
+    second: PC Computer - Deltarune - Kris_16
+  - first:
+      213: 4422469679305039133
+    second: PC Computer - Deltarune - Kris_17
+  - first:
+      213: -896510096018587745
+    second: PC Computer - Deltarune - Kris_18
+  - first:
+      213: -4336171508180322312
+    second: PC Computer - Deltarune - Kris_19
+  - first:
+      213: 7052546891556456534
+    second: PC Computer - Deltarune - Kris_20
+  - first:
+      213: 6790830655658669595
+    second: PC Computer - Deltarune - Kris_21
+  - first:
+      213: 599578646878269872
+    second: PC Computer - Deltarune - Kris_22
+  - first:
+      213: -4095194274272968259
+    second: PC Computer - Deltarune - Kris_23
+  - first:
+      213: 396425043175902361
+    second: PC Computer - Deltarune - Kris_24
+  - first:
+      213: 2645985294392838384
+    second: PC Computer - Deltarune - Kris_25
+  - first:
+      213: 6976584095768488759
+    second: PC Computer - Deltarune - Kris_26
+  - first:
+      213: 6219443165720712183
+    second: PC Computer - Deltarune - Kris_27
+  - first:
+      213: 399011954762016672
+    second: PC Computer - Deltarune - Kris_28
+  - first:
+      213: 7606700435907707794
+    second: PC Computer - Deltarune - Kris_29
+  - first:
+      213: 7637960817324752411
+    second: PC Computer - Deltarune - Kris_30
+  - first:
+      213: 6457244412989688813
+    second: PC Computer - Deltarune - Kris_31
+  - first:
+      213: -2185046591408569390
+    second: PC Computer - Deltarune - Kris_32
+  - first:
+      213: -1820369706795430527
+    second: PC Computer - Deltarune - Kris_33
+  - first:
+      213: -4413107667759030712
+    second: PC Computer - Deltarune - Kris_34
+  - first:
+      213: -7035951626959802840
+    second: PC Computer - Deltarune - Kris_35
+  - first:
+      213: -5207798301749101566
+    second: PC Computer - Deltarune - Kris_36
+  - first:
+      213: -8459708416806595337
+    second: PC Computer - Deltarune - Kris_37
+  - first:
+      213: -6397906895217063323
+    second: PC Computer - Deltarune - Kris_38
+  - first:
+      213: -6848966724328304427
+    second: PC Computer - Deltarune - Kris_39
+  - first:
+      213: -64207374356942254
+    second: PC Computer - Deltarune - Kris_40
+  - first:
+      213: 4183976757619089560
+    second: PC Computer - Deltarune - Kris_41
+  - first:
+      213: 362522309826607229
+    second: PC Computer - Deltarune - Kris_42
+  - first:
+      213: -8354783069295175909
+    second: PC Computer - Deltarune - Kris_43
+  - first:
+      213: 4758345421761224681
+    second: PC Computer - Deltarune - Kris_44
+  - first:
+      213: -9123499501286960110
+    second: PC Computer - Deltarune - Kris_45
+  - first:
+      213: 7756037428428294936
+    second: PC Computer - Deltarune - Kris_46
+  - first:
+      213: 1166890153082838655
+    second: PC Computer - Deltarune - Kris_47
+  - first:
+      213: -8305115736884852356
+    second: PC Computer - Deltarune - Kris_48
+  - first:
+      213: -6282278434042348061
+    second: PC Computer - Deltarune - Kris_49
+  - first:
+      213: -3130457371890080083
+    second: PC Computer - Deltarune - Kris_50
+  - first:
+      213: 5568927544075133468
+    second: PC Computer - Deltarune - Kris_51
+  - first:
+      213: 5648540276697469103
+    second: PC Computer - Deltarune - Kris_52
+  - first:
+      213: 4097144529110202729
+    second: PC Computer - Deltarune - Kris_53
+  - first:
+      213: -8824470803486226445
+    second: PC Computer - Deltarune - Kris_54
+  - first:
+      213: -8243722878022275001
+    second: PC Computer - Deltarune - Kris_55
+  - first:
+      213: -3140180083786977268
+    second: PC Computer - Deltarune - Kris_56
+  - first:
+      213: 7766860962907564208
+    second: PC Computer - Deltarune - Kris_57
+  - first:
+      213: 54940263257636131
+    second: PC Computer - Deltarune - Kris_58
+  - first:
+      213: -4669328317373256500
+    second: PC Computer - Deltarune - Kris_59
+  - first:
+      213: -2556346114147032483
+    second: PC Computer - Deltarune - Kris_60
+  - first:
+      213: 2339407715931027648
+    second: PC Computer - Deltarune - Kris_61
+  - first:
+      213: -5891805454682188187
+    second: PC Computer - Deltarune - Kris_62
+  - first:
+      213: 1979142990262437406
+    second: PC Computer - Deltarune - Kris_63
+  - first:
+      213: 8356510121635539775
+    second: PC Computer - Deltarune - Kris_64
+  - first:
+      213: -7656516513528115931
+    second: PC Computer - Deltarune - Kris_65
+  - first:
+      213: -5236123379236140346
+    second: PC Computer - Deltarune - Kris_66
+  - first:
+      213: 5536130145921525377
+    second: PC Computer - Deltarune - Kris_67
+  - first:
+      213: 8131022923073584158
+    second: PC Computer - Deltarune - Kris_68
+  - first:
+      213: 4243730908618722368
+    second: PC Computer - Deltarune - Kris_69
+  - first:
+      213: -3805830053301090701
+    second: PC Computer - Deltarune - Kris_70
+  - first:
+      213: 4932000786606781103
+    second: PC Computer - Deltarune - Kris_71
+  - first:
+      213: -7468629112529536425
+    second: PC Computer - Deltarune - Kris_72
+  - first:
+      213: -153948891702097278
+    second: PC Computer - Deltarune - Kris_73
+  - first:
+      213: 8147741044759018403
+    second: PC Computer - Deltarune - Kris_74
+  - first:
+      213: -5736328359535348632
+    second: PC Computer - Deltarune - Kris_75
+  - first:
+      213: -8679933973966886988
+    second: PC Computer - Deltarune - Kris_76
+  - first:
+      213: 6664087273443614482
+    second: PC Computer - Deltarune - Kris_77
+  - first:
+      213: -7719644631789864419
+    second: PC Computer - Deltarune - Kris_78
+  - first:
+      213: -3264784782331102276
+    second: PC Computer - Deltarune - Kris_79
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 658
+        width: 22
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69bb4952ebd00d10800000000000000
+      internalID: 2089911992307136876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 656
+        width: 24
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71f1e94508088880800000000000000
+      internalID: -8608621868911300229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 617
+        width: 23
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fea508f1c71ce400800000000000000
+      internalID: 354684592512675576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 617
+        width: 32
+        height: 31
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd8df8c6a11014080800000000000000
+      internalID: -9205074950366439201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_4
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 617
+        width: 49
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c88fdbc0a23e2d20800000000000000
+      internalID: 3255595246832027848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_5
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 570
+        width: 19
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69cc15a94178bba40800000000000000
+      internalID: 5385046302009707670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 570
+        width: 25
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca84fa5708648930800000000000000
+      internalID: 4144551937887734479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_7
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 570
+        width: 20
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240d611671d2feef0800000000000000
+      internalID: -76793090205626302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 570
+        width: 18
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae1044df36f66f80800000000000000
+      internalID: -8113526924657025370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 570
+        width: 30
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0105def6ffe39b0800000000000000
+      internalID: -5098356871948922711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 570
+        width: 32
+        height: 46
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be11290d240278f0800000000000000
+      internalID: -544368013485203792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 570
+        width: 31
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c068c08ad3f0cd990800000000000000
+      internalID: -7359990933543418356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_12
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 570
+        width: 32
+        height: 41
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0958dc6b8517d55d0800000000000000
+      internalID: -3072174744958827120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_13
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 570
+        width: 36
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa1b37fc49014140800000000000000
+      internalID: 4702049712121518762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_14
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 570
+        width: 36
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35c69ced768df10800000000000000
+      internalID: 2294698216704988066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_15
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 523
+        width: 36
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a9a48a07f4be160800000000000000
+      internalID: 7055820586484406827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_16
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 523
+        width: 36
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345352a52d7f1eed0800000000000000
+      internalID: -2386353844702071485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_17
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 523
+        width: 36
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d99e8fdb4cf5d30800000000000000
+      internalID: 4422469679305039133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 523
+        width: 36
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fb24d41d4fe83f0800000000000000
+      internalID: -896510096018587745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_19
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 523
+        width: 36
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7fdb1ccf2d2d3c0800000000000000
+      internalID: -4336171508180322312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_20
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 523
+        width: 36
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6580209280eafd160800000000000000
+      internalID: 7052546891556456534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_21
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 472
+        width: 26
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b163e508080ed3e50800000000000000
+      internalID: 6790830655658669595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_22
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 472
+        width: 28
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1b6164a91225800800000000000000
+      internalID: 599578646878269872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_23
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 466
+        width: 45
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db10fbb3182fa27c0800000000000000
+      internalID: -4095194274272968259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 466
+        width: 45
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c8196f972608500800000000000000
+      internalID: 396425043175902361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_25
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 466
+        width: 27
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f841313b9d68b420800000000000000
+      internalID: 2645985294392838384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_26
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 466
+        width: 25
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73babe5854ec1d060800000000000000
+      internalID: 6976584095768488759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_27
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 466
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f393817b96ef4650800000000000000
+      internalID: 6219443165720712183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_28
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 466
+        width: 23
+        height: 49
+      alignment: 9
+      pivot: {x: 0, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a769b04243998500800000000000000
+      internalID: 399011954762016672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_29
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 420
+        width: 51
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29386139ebd609960800000000000000
+      internalID: 7606700435907707794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_30
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 420
+        width: 56
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e7efc45ec7ff960800000000000000
+      internalID: 7637960817324752411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_31
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 420
+        width: 56
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deb4028e49dbc9950800000000000000
+      internalID: 6457244412989688813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_32
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 420
+        width: 56
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d30a65b3b72da1e0800000000000000
+      internalID: -2185046591408569390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_34
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 420
+        width: 56
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e9ba335fd71c2c0800000000000000
+      internalID: -4413107667759030712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_35
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 420
+        width: 56
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82eaa3af5474b5e90800000000000000
+      internalID: -7035951626959802840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_38
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 380
+        width: 31
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a809c83911637a0800000000000000
+      internalID: -6397906895217063323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_39
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 380
+        width: 35
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0d0f53d0593f0a0800000000000000
+      internalID: -6848966724328304427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_40
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 380
+        width: 32
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2527e73bbb3eb1ff0800000000000000
+      internalID: -64207374356942254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_41
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 380
+        width: 31
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890606281b8701a30800000000000000
+      internalID: 4183976757619089560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_42
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 380
+        width: 28
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d787e5cbe10f70500800000000000000
+      internalID: 362522309826607229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_43
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 333
+        width: 22
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1796336019dd0c80800000000000000
+      internalID: -8354783069295175909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_44
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 333
+        width: 32
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef1fa643f9090240800000000000000
+      internalID: 4758345421761224681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_46
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 333
+        width: 31
+        height: 43
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b4a1aa2faf2ab60800000000000000
+      internalID: 7756037428428294936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_48
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 333
+        width: 31
+        height: 38
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79c87c5d3d4ebc80800000000000000
+      internalID: -8305115736884852356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_50
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 333
+        width: 31
+        height: 40
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da62dfb2b916e84d0800000000000000
+      internalID: -3130457371890080083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_51
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 333
+        width: 31
+        height: 42
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12ac7c881ec84d40800000000000000
+      internalID: 5568927544075133468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_52
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 333
+        width: 31
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa01a045475a36e40800000000000000
+      internalID: 5648540276697469103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 333
+        width: 22
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9697c0bdd3bfbd830800000000000000
+      internalID: 4097144529110202729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 286
+        width: 33
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7c56bee8e298580800000000000000
+      internalID: -8824470803486226445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_55
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 286
+        width: 33
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740b8b438b9689d80800000000000000
+      internalID: -8243722878022275001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 239
+        width: 29
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00fe17e9d6db64d0800000000000000
+      internalID: -3140180083786977268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_57
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 239
+        width: 30
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b824f925ee69cb60800000000000000
+      internalID: 7766860962907564208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_58
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 27
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d765bd0ef23c000800000000000000
+      internalID: 54940263257636131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_59
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 192
+        width: 30
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc6b4f62a6333fb0800000000000000
+      internalID: -4669328317373256500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_60
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 192
+        width: 35
+        height: 34
+      alignment: 9
+      pivot: {x: -0.06, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52e057d0c8068cd0800000000000000
+      internalID: -2556346114147032483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_61
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 144
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c870e44cee377020800000000000000
+      internalID: 2339407715931027648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_62
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 144
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56695f3b72a1c3ea0800000000000000
+      internalID: -5891805454682188187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_63
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 144
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e160c4e4014577b10800000000000000
+      internalID: 1979142990262437406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_64
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 144
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3bea025ea948f370800000000000000
+      internalID: 8356510121635539775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_65
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 144
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d8e320cc69eb590800000000000000
+      internalID: -7656516513528115931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_66
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 144
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca038c578d8557b0800000000000000
+      internalID: -5236123379236140346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_67
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 97
+        width: 34
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186ebf9390944dc40800000000000000
+      internalID: 5536130145921525377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_68
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 97
+        width: 34
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1cfb5eb44237d070800000000000000
+      internalID: 8131022923073584158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_69
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 29
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c8092f6c2c4ea30800000000000000
+      internalID: 4243730908618722368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_70
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 97
+        width: 21
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3768b7d0bb9fe2bc0800000000000000
+      internalID: -3805830053301090701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_71
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 97
+        width: 19
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2f4a5a59cf17440800000000000000
+      internalID: 4932000786606781103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_72
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 97
+        width: 18
+        height: 36
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a398484691a5890800000000000000
+      internalID: -7468629112529536425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_73
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 97
+        width: 18
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a08847c401dddf0800000000000000
+      internalID: -153948891702097278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_74
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 97
+        width: 19
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab3bb6cf47921170800000000000000
+      internalID: 8147741044759018403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_75
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 97
+        width: 19
+        height: 37
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86475e6dfb77460b0800000000000000
+      internalID: -5736328359535348632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_76
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 47
+        width: 19
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7ebd7f90eaa8780800000000000000
+      internalID: -8679933973966886988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_77
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fdecd31189b7c50800000000000000
+      internalID: 6664087273443614482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_78
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1af9e99b105ed490800000000000000
+      internalID: -7719644631789864419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Kris_79
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbbd0db98721b2d0800000000000000
+      internalID: -3264784782331102276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

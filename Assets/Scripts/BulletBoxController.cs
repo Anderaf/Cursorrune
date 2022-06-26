@@ -5,6 +5,7 @@ using UnityEngine.U2D;
 
 public class BulletBoxController : MonoBehaviour
 {
+    Animator animator;
     SpriteShapeController spriteShapeController;
     Spline spline;
     Vector2 topLeft;
@@ -16,24 +17,35 @@ public class BulletBoxController : MonoBehaviour
     [SerializeField] Vector2 bottomRightTarget;
     [SerializeField] Vector2 bottomLeftTarget;
     EdgeCollider2D edgeCollider;
+    SoulController soul;
 
     public float changeSpeed = 0.1f;
     void Start()
     {
+        soul = FindObjectOfType<SoulController>();
+        animator = GetComponent<Animator>();
         edgeCollider = GetComponent<EdgeCollider2D>();
         spriteShapeController = GetComponent<SpriteShapeController>();
         spline = spriteShapeController.spline;
-        bottomLeft = edgeCollider.points[0];
+        /*bottomLeft = edgeCollider.points[0];
         topLeft = edgeCollider.points[1];
         topRight = edgeCollider.points[2];
-        bottomRight = edgeCollider.points[3];
+        bottomRight = edgeCollider.points[3];*/
+
+        bottomLeft = spline.GetPosition(0);
+        topLeft = spline.GetPosition(1);
+        topRight = spline.GetPosition(2);
+        bottomRight = spline.GetPosition(3);
+
         topLeftTarget = topLeft;
         topRightTarget = topRight;
         bottomRightTarget = bottomRight;
         bottomLeftTarget = bottomLeft;
+
+        Invoke("StartSpawnAnimation", 1);
+        Invoke("StartDespawnAnimation", 10);
     }
 
-    // Update is called once per frame
     void Update()
     {
         UpdateSpline();
@@ -54,21 +66,38 @@ public class BulletBoxController : MonoBehaviour
     }
     void UpdatePositions()
     {
-        /*Mathf.Lerp(bottomLeft.x, bottomLeftTarget.x, changeSpeed);
-        Mathf.Lerp(bottomLeft.y, bottomLeftTarget.y, changeSpeed);
-        Mathf.Lerp(topLeft.x, topLeftTarget.x, changeSpeed);
-        Mathf.Lerp(topLeft.y, topLeftTarget.y, changeSpeed);
-        Mathf.Lerp(topRight.x, topRightTarget.x, changeSpeed);
-        Mathf.Lerp(topRight.y, topRightTarget.y, changeSpeed);
-        Mathf.Lerp(bottomRight.x, bottomRightTarget.x, changeSpeed);
-        Mathf.Lerp(bottomRight.y, bottomRightTarget.y, changeSpeed);*/
         bottomLeft = Vector2.MoveTowards(bottomLeft, bottomLeftTarget, changeSpeed);
         topLeft = Vector2.MoveTowards(topLeft, topLeftTarget, changeSpeed);
         topRight = Vector2.MoveTowards(topRight, topRightTarget, changeSpeed);
         bottomRight = Vector2.MoveTowards(bottomRight, bottomRightTarget, changeSpeed);
     }
-    public void MoveRightEdge(float distance)
+    void StartSpawnAnimation()
     {
-
+        animator.SetTrigger("Spawn");
+        soul.StartBattleMode();
+    }
+    void StartDespawnAnimation()
+    {
+        animator.SetTrigger("Despawn");
+    }
+    public void MoveRightEdge(Vector2 direction)
+    {
+        topRightTarget += direction;
+        bottomRightTarget += direction;
+    }
+    public void MoveTopEdge(Vector2 direction)
+    {
+        topLeftTarget += direction;
+        topRightTarget += direction;
+    }
+    public void MoveLeftEdge(Vector2 direction)
+    {
+        bottomLeftTarget += direction;
+        topLeftTarget += direction;
+    }
+    public void MoveBottomEdge(Vector2 direction)
+    {
+        bottomLeftTarget += direction;
+        bottomRightTarget += direction;
     }
 }
