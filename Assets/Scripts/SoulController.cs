@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoulController : MonoBehaviour
 {
@@ -12,22 +13,22 @@ public class SoulController : MonoBehaviour
     Vector3 battleStartPosition;
     Vector2 mousePosition;
     Rigidbody2D soulRigidbody;
+    CursorFollow dotCursor;
+    Vector3 krisSoulSpot;
     void Start()
     {
         soulRigidbody = GetComponent<Rigidbody2D>();
 
         //Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        //Cursor.visible = false;
         battleStartPosition = transform.position;
+        dotCursor = FindObjectOfType<CursorFollow>();
+        krisSoulSpot = FindObjectOfType<Kris>().transform.position + new Vector3(0.6f,0.6f,0.1f);
+        DisableVisibility();
+        StopControl();
+        transform.position = krisSoulSpot;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-
-        
-    }
     private void FixedUpdate()
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -44,17 +45,28 @@ public class SoulController : MonoBehaviour
     {
         GetComponent<Collider2D>().enabled = false;
         inControl = false;
+        dotCursor.DisableVisibility();
     }
     void StartControl()
     {
         GetComponent<Collider2D>().enabled = true;
         inControl = true;
+        dotCursor.EnableVisibility();
     }
     public void StartBattleMode()
     {
         StartCoroutine(ToBattleStartPositionCoroutine());
         StopControl();
         Invoke("StartControl", 1);
+        Cursor.visible = false;
+        EnableVisibility();
+    }
+    public void EndBattleMode()
+    {
+        StartCoroutine(ToPositionCoroutine());
+        StopControl();
+        Cursor.visible = true;
+        Invoke("DisableVisibility", 1);
     }
     
     void OldMoveSoul()
@@ -73,5 +85,27 @@ public class SoulController : MonoBehaviour
             yield return new WaitForSeconds(0.005f);
         }
         yield return new WaitForSeconds(0);
+    }
+    IEnumerator ToPositionCoroutine()
+    {
+        float _distance = Vector3.Distance(transform.position, krisSoulSpot);
+        while (transform.position != krisSoulSpot)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, krisSoulSpot, 0.01f * _distance);
+            yield return new WaitForSeconds(0.005f);
+        }
+        yield return new WaitForSeconds(0);
+    }
+    public void EnableVisibility()
+    {
+        Color color = gameObject.GetComponent<SpriteRenderer>().color;
+        color.a = 255;
+        gameObject.GetComponent<SpriteRenderer>().color = color;
+    }
+    public void DisableVisibility()
+    {
+        Color color = gameObject.GetComponent<SpriteRenderer>().color;
+        color.a = 0;
+        gameObject.GetComponent<SpriteRenderer>().color = color;
     }
 }

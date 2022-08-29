@@ -42,8 +42,8 @@ public class BulletBoxController : MonoBehaviour
         bottomRightTarget = bottomRight;
         bottomLeftTarget = bottomLeft;
 
-        Invoke("StartSpawnAnimation", 1);
-        Invoke("StartDespawnAnimation", 10);
+        //Invoke("StartSpawnAnimation", 1);
+        //Invoke("StartDespawnAnimation", 10);
     }
 
     void Update()
@@ -71,14 +71,15 @@ public class BulletBoxController : MonoBehaviour
         topRight = Vector2.MoveTowards(topRight, topRightTarget, changeSpeed);
         bottomRight = Vector2.MoveTowards(bottomRight, bottomRightTarget, changeSpeed);
     }
-    void StartSpawnAnimation()
+    public void StartSpawnAnimation()
     {
         animator.SetTrigger("Spawn");
         soul.StartBattleMode();
     }
-    void StartDespawnAnimation()
+    public void StartDespawnAnimation()
     {
         animator.SetTrigger("Despawn");
+        soul.EndBattleMode();
     }
     public void MoveRightEdge(Vector2 direction)
     {

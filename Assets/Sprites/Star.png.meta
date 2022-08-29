@@ -1,0 +1,1368 @@
+fileFormatVersion: 2
+guid: d883ad2499b971d458b795d7463085ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -740546360338404202
+    second: PC Computer - Deltarune - Effects_0
+  - first:
+      213: -1749433552726437558
+    second: PC Computer - Deltarune - Effects_1
+  - first:
+      213: -3518549480602782963
+    second: PC Computer - Deltarune - Effects_2
+  - first:
+      213: 353127732961907084
+    second: PC Computer - Deltarune - Effects_3
+  - first:
+      213: 4174671230231626935
+    second: PC Computer - Deltarune - Effects_4
+  - first:
+      213: -1342207233813558957
+    second: PC Computer - Deltarune - Effects_5
+  - first:
+      213: 1802184918994755094
+    second: PC Computer - Deltarune - Effects_11
+  - first:
+      213: -9148537406421148083
+    second: PC Computer - Deltarune - Effects_13
+  - first:
+      213: -2946505653823152201
+    second: PC Computer - Deltarune - Effects_14
+  - first:
+      213: -948604074961209160
+    second: PC Computer - Deltarune - Effects_15
+  - first:
+      213: 6416072923287118914
+    second: PC Computer - Deltarune - Effects_16
+  - first:
+      213: 5101397533509437108
+    second: PC Computer - Deltarune - Effects_17
+  - first:
+      213: 1488593465332931101
+    second: PC Computer - Deltarune - Effects_18
+  - first:
+      213: 767868333623646585
+    second: PC Computer - Deltarune - Effects_19
+  - first:
+      213: 6972705387378260673
+    second: PC Computer - Deltarune - Effects_22
+  - first:
+      213: -8669444335528389463
+    second: PC Computer - Deltarune - Effects_27
+  - first:
+      213: 4548751567317815979
+    second: PC Computer - Deltarune - Effects_29
+  - first:
+      213: 1911456502299980507
+    second: PC Computer - Deltarune - Effects_37
+  - first:
+      213: 7317384614468331958
+    second: PC Computer - Deltarune - Effects_38
+  - first:
+      213: 488808319717885701
+    second: PC Computer - Deltarune - Effects_39
+  - first:
+      213: 506369408712188793
+    second: PC Computer - Deltarune - Effects_40
+  - first:
+      213: 8591327818111229256
+    second: PC Computer - Deltarune - Effects_41
+  - first:
+      213: 7598876287898760820
+    second: PC Computer - Deltarune - Effects_42
+  - first:
+      213: -2089089884954546960
+    second: PC Computer - Deltarune - Effects_43
+  - first:
+      213: -7479517129870509269
+    second: PC Computer - Deltarune - Effects_44
+  - first:
+      213: 4203643345848538180
+    second: PC Computer - Deltarune - Effects_45
+  - first:
+      213: -7717970778607234942
+    second: PC Computer - Deltarune - Effects_46
+  - first:
+      213: 3769802383565517812
+    second: PC Computer - Deltarune - Effects_47
+  - first:
+      213: -5488930690985909556
+    second: PC Computer - Deltarune - Effects_48
+  - first:
+      213: 999400850003246634
+    second: PC Computer - Deltarune - Effects_49
+  - first:
+      213: 5701419042216652191
+    second: PC Computer - Deltarune - Effects_50
+  - first:
+      213: -2631252069076369078
+    second: PC Computer - Deltarune - Effects_51
+  - first:
+      213: -3250504069402654089
+    second: PC Computer - Deltarune - Effects_52
+  - first:
+      213: -242749527765115478
+    second: PC Computer - Deltarune - Effects_53
+  - first:
+      213: -9049863150223694857
+    second: PC Computer - Deltarune - Effects_54
+  - first:
+      213: 5134400161027688195
+    second: PC Computer - Deltarune - Effects_55
+  - first:
+      213: -280531366581022479
+    second: PC Computer - Deltarune - Effects_57
+  - first:
+      213: 6119690039045967410
+    second: PC Computer - Deltarune - Effects_58
+  - first:
+      213: -7375498294116586320
+    second: PC Computer - Deltarune - Effects_61
+  - first:
+      213: -1725004579343678270
+    second: PC Computer - Deltarune - Effects_62
+  - first:
+      213: -3355917077762088500
+    second: PC Computer - Deltarune - Effects_80
+  - first:
+      213: 4774127201129177197
+    second: PC Computer - Deltarune - Effects_81
+  - first:
+      213: 6553648018372706731
+    second: PC Computer - Deltarune - Effects_82
+  - first:
+      213: -7194889552498026763
+    second: PC Computer - Deltarune - Effects_83
+  - first:
+      213: 6758656239198518809
+    second: PC Computer - Deltarune - Effects_103
+  - first:
+      213: 8297369752191653936
+    second: PC Computer - Deltarune - Effects_106
+  - first:
+      213: 2190590714388448974
+    second: PC Computer - Deltarune - Effects_6
+  - first:
+      213: -4994727146945095775
+    second: PC Computer - Deltarune - Effects_7
+  - first:
+      213: -6959182965918167808
+    second: PC Computer - Deltarune - Effects_8
+  - first:
+      213: -6171323666247168117
+    second: PC Computer - Deltarune - Effects_9
+  - first:
+      213: -2215261837913212932
+    second: PC Computer - Deltarune - Effects_10
+  - first:
+      213: 729518905454094133
+    second: PC Computer - Deltarune - Effects_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1016
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c2254420d09b5f0800000000000000
+      internalID: -740546360338404202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1015
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a415793e373c8b7e0800000000000000
+      internalID: -1749433552726437558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1017
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d033904b3e99b2fc0800000000000000
+      internalID: -3518549480602782963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 967
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81988b5dcf86e400800000000000000
+      internalID: 353127732961907084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 959
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b4cff39d596fe930800000000000000
+      internalID: 4174671230231626935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 958
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3594595d1a58f5de0800000000000000
+      internalID: -1342207233813558957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 958
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e9f3ca2a5a20910800000000000000
+      internalID: 1802184918994755094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_13
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 896
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ed4eb23bdd90180800000000000000
+      internalID: -9148537406421148083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_14
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 896
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfd03718b8eb17d0800000000000000
+      internalID: -2946505653823152201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_15
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 896
+        width: 39
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b8f277ae91e5d2f0800000000000000
+      internalID: -948604074961209160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_16
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 848
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244e78574587a0950800000000000000
+      internalID: 6416072923287118914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_17
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 847
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b642e2470ecbc640800000000000000
+      internalID: 5101397533509437108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 851
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a132caedb88a410800000000000000
+      internalID: 1488593465332931101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 785
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97998eb5e2408aa00800000000000000
+      internalID: 767868333623646585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 788
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca322a5b9604c060800000000000000
+      internalID: 6972705387378260673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_27
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 786
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4decc3f42ffa780800000000000000
+      internalID: -8669444335528389463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 784
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2da7d3379602f30800000000000000
+      internalID: 4548751567317815979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 752
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2733fbf8bd68a10800000000000000
+      internalID: 1911456502299980507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_38
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 749
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b92b46a9829c8560800000000000000
+      internalID: 7317384614468331958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 748
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5074a04b39898c600800000000000000
+      internalID: 488808319717885701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_40
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 723
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9732a6b5b4cf60700800000000000000
+      internalID: 506369408712188793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 722
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d937bb1278a3770800000000000000
+      internalID: 8591327818111229256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 722
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476385829b1a47960800000000000000
+      internalID: 7598876287898760820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_43
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 723
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc2c6f61df0203e0800000000000000
+      internalID: -2089089884954546960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_44
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 680
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b7e9e6cca633890800000000000000
+      internalID: -7479517129870509269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_45
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 680
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4449cb7e957565a30800000000000000
+      internalID: 4203643345848538180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_46
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 676
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280554ae77244e490800000000000000
+      internalID: -7717970778607234942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_47
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 680
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3f7d96b47015430800000000000000
+      internalID: 3769802383565517812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_48
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 649
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2ab0f3e9663d3b0800000000000000
+      internalID: -5488930690985909556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_49
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 647
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ebaac27c59edd00800000000000000
+      internalID: 999400850003246634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 617
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9da8f659628f1f40800000000000000
+      internalID: 5701419042216652191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_51
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 614
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4101342f2aeb7bd0800000000000000
+      internalID: -2631252069076369078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_52
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 615
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a0b4255c3e3e2d0800000000000000
+      internalID: -3250504069402654089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_53
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 616
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad9a24379491acf0800000000000000
+      internalID: -242749527765115478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_54
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 617
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3e401c96d686280800000000000000
+      internalID: -9049863150223694857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_55
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 581
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30783c44ebd014740800000000000000
+      internalID: 5134400161027688195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_57
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 521
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0559a553a5b1cf0800000000000000
+      internalID: -280531366581022479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 481
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ec4d0caa18de450800000000000000
+      internalID: 6119690039045967410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_61
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 417
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc6ea9e067f4a990800000000000000
+      internalID: -7375498294116586320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_62
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 333
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c44c4c797d8f08e0800000000000000
+      internalID: -1725004579343678270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_80
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 273
+        width: 50
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1e25cb2336d61d0800000000000000
+      internalID: -3355917077762088500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_81
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 223
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60a5df156b114240800000000000000
+      internalID: 4774127201129177197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_82
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 145
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba14c06662c33fa50800000000000000
+      internalID: 6553648018372706731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_83
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 145
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f69f29721e962c90800000000000000
+      internalID: -7194889552498026763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_103
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 70
+        width: 56
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91eb7686a029bcd50800000000000000
+      internalID: 6758656239198518809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038547904dd262370800000000000000
+      internalID: 8297369752191653936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_6
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 748
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec6846306aa866e10800000000000000
+      internalID: 2190590714388448974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_7
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 748
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a756508f1a2faab0800000000000000
+      internalID: -4994727146945095775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 724
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d8f7db6f30c6f90800000000000000
+      internalID: -6959182965918167808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 648
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8f406792dd0b5aa0800000000000000
+      internalID: -6171323666247168117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 647
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf734ba681fc141e0800000000000000
+      internalID: -2215261837913212932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Deltarune - Effects_12
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 618
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537e5805495cf1a00800000000000000
+      internalID: 729518905454094133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

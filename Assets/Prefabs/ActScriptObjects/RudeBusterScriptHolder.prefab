@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1141945162116270566
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4892929456031794221}
+  - component: {fileID: 6828688063286822938}
+  m_Layer: 0
+  m_Name: RudeBusterScriptHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4892929456031794221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141945162116270566}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.0437348, y: 4.5613604, z: -94.17271}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6828688063286822938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1141945162116270566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f237e696a27c6b04eb09a8c7f0dce002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies: []
+  characters: []
+  actingCharacter: {fileID: 0}
+  targetID: 0
+  rudeBusterPrefab: {fileID: 3026860790795418899, guid: e3c6ac91f11f70d408b94b6a18825c83, type: 3}
+  explosionFXPrefab: {fileID: 1677314816381299320, guid: 59b877d48f145b042901ab0a435764e1, type: 3}
+  curve: {fileID: 2164374446207603167, guid: 84f777632e1e72749920bbd3f98b2563, type: 3}
+  speedModifier: 2
+  accelerationModifier: 0
