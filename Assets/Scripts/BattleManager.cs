@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BattleManager : MonoBehaviour
 {
-    public int TPValue { get; private set; }
+    public float tpValue { get; private set; }
 
     [SerializeField] ChoiceMenu choiceMenu;
     [SerializeField] CharacterMenu[] menus;
     [SerializeField] List<Enemy> enemies;
+
     [SerializeField] Slider tpSlider;
+    [SerializeField] TMP_Text tpText;
 
     public AudioSource soundPlayer;
     [SerializeField] GameObject soundPrefab;
@@ -32,12 +35,12 @@ public class BattleManager : MonoBehaviour
         {
             characters[_characters[i].GetId()] = _characters[i];
         }
-        TPValue = 50;
+        tpValue = 50;
     }
 
     void Update()
     {
-        tpSlider.value = Mathf.Lerp(tpSlider.value, TPValue, 0.05f);
+        tpSlider.value = Mathf.Lerp(tpSlider.value, tpValue, 0.05f);
     }
     public void PlayPitchedSound(AudioClip _clip, float pitch,float volume = 1, float lifetime = 4)
     {
@@ -55,32 +58,34 @@ public class BattleManager : MonoBehaviour
         Debug.Log("Played heal sound");
         soundPlayer.PlayOneShot(healSound);
     }
-    public void AddTP(int value)
+    public void AddTP(float value)
     {
-        TPValue += value;
-        if (TPValue < 0)
+        tpValue += value;
+        if (tpValue < 0)
         {
-            TPValue = 0;
+            tpValue = 0;
         }
-        else if (TPValue > 100)
+        else if (tpValue > 100)
         {
-            TPValue = 100;
+            tpValue = 100;
         }
-        //tpSlider.value = TPValue;
+        tpText.text = Mathf.FloorToInt(tpValue).ToString();
+
         Debug.Log("+" + value + "TP");
     }
     public void DrainTP(int value)
     {
-        TPValue -= value;
-        if (TPValue < 0)
+        tpValue -= value;
+        if (tpValue < 0)
         {
-            TPValue = 0;
+            tpValue = 0;
         }
-        else if (TPValue > 100)
+        else if (tpValue > 100)
         {
-            TPValue = 100;
+            tpValue = 100;
         }
-        //tpSlider.value = TPValue;
+        tpText.text = Mathf.FloorToInt(tpValue).ToString();
+
         Debug.Log("-" + value + "TP");
     }
     public CharacterManager GetCharacter(int id)

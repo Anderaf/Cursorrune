@@ -253,7 +253,7 @@ public class CharacterManager : MonoBehaviour
     public void UseAct(ActObject act)
     {      
         Debug.Log(characterName + " used " + act.name + " on entity with id " + act.GetTargetId() + ". That act " + act.description);
-        if (act.TPCost <= battleManager.TPValue)
+        if (act.TPCost <= battleManager.tpValue)
         {
             battleManager.DrainTP(act.TPCost);
             if (!act.useCustomScript)
