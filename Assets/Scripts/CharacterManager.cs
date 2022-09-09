@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -11,7 +12,11 @@ public class CharacterManager : MonoBehaviour
     public GameObject hitEffect;
     public AudioClip swingSound;
     [SerializeField] float swingSoundPitch = 1;
+
     [SerializeField] Slider linkedSlider;
+    [SerializeField] TMP_Text linkedHPText;
+    [SerializeField] TMP_Text linkedMaxHPText;
+
     [SerializeField] AudioSource soundPlayer;
     Animator characterAnimator;
     BattleManager battleManager;
@@ -31,20 +36,24 @@ public class CharacterManager : MonoBehaviour
     bool isTurnUsed = false;
     [SerializeField] int id = 999;
     public string characterName = "Chara";
+
+    DamageText damageText;
     // Start is called before the first frame update
     void Start()
     {
+        damageText = GetComponent<DamageText>();
         if (maxHealth == 0)
         {
             maxHealth = health;
         }
+        linkedHPText.text = health.ToString();
+        linkedMaxHPText.text = maxHealth.ToString();
         linkedSlider.maxValue = maxHealth;
         linkedSlider.value = health;
         battleManager = FindObjectOfType<BattleManager>();
         characterAnimator = GetComponent<Animator>();
         initialDefence = defensePercent;
 
-        //TakeDamage(60);
     }
     public ActObject GetAct(int id)
     {
@@ -64,7 +73,9 @@ public class CharacterManager : MonoBehaviour
     }
     public void TakeDamage(int _damage)
     {
-        health -= ApplyDefense(_damage);
+        _damage = ApplyDefense(_damage);
+        damageText.ShowDamage(_damage.ToString());
+        health -= _damage;
 
         if (health < 0)
         {
@@ -74,16 +85,17 @@ public class CharacterManager : MonoBehaviour
         {
             linkedSlider.value = health;
         }
+        linkedHPText.text = health.ToString();
 
         characterAnimator.SetTrigger("Hurt");
         if (health <= 0)
         {
             characterAnimator.SetBool("Fallen", true);
         }
-        /*else
+        else
         {
             characterAnimator.SetBool("Fallen", false);
-        }*/
+        }
     }
     int ApplyDefense(int _damage)
     {
@@ -205,6 +217,11 @@ public class CharacterManager : MonoBehaviour
             var fx = Instantiate(battleManager.healFX, transform.position + new Vector3(0.5f, 0.5f, -0.5f), Quaternion.Euler(-90, 0, 0)).gameObject;
             Destroy(fx, 1);
         }
+        if (health > 0)
+        {
+            characterAnimator.SetBool("Fallen", false);
+        }
+        linkedHPText.text = health.ToString();
     }
     public void GainTP(ItemObject item)
     {
@@ -248,7 +265,11 @@ public class CharacterManager : MonoBehaviour
             var fx = Instantiate(battleManager.healFX, transform.position + new Vector3(0.5f, 0.5f, -0.5f), Quaternion.Euler(-90, 0, 0)).gameObject;
             Destroy(fx, 1);
         }
-        
+        if (health > 0)
+        {
+            characterAnimator.SetBool("Fallen", false);
+        }
+        linkedHPText.text = health.ToString();
     }
     public void UseAct(ActObject act)
     {      

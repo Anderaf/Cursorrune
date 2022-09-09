@@ -24,6 +24,7 @@ public class BattleManager : MonoBehaviour
     public ParticleSystem healFX;
 
     CharacterManager[] characters = new CharacterManager[3];
+    bool[] targetedCharacters = new bool[3] {true, true, true };
     int currentMenu = 0;
 
     void Start()
@@ -36,6 +37,17 @@ public class BattleManager : MonoBehaviour
             characters[_characters[i].GetId()] = _characters[i];
         }
         tpValue = 50;
+    }
+    public void TakeDamage(int _damage)
+    {
+        Debug.Log("Everybody took damage");
+        for (int i = 0; i < 3; i++)
+        {
+            if (targetedCharacters[i] && characters[i] != null)
+            {
+                characters[i].TakeDamage(_damage);
+            }
+        }
     }
 
     void Update()

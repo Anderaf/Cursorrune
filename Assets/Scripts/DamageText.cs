@@ -39,6 +39,16 @@ public class DamageText : MonoBehaviour
         textObject.faceColor = color;
         StartCoroutine(DestroyAndRemove(canvasObject.gameObject, 4));
     }
+    public void ShowDamage(string _damage)
+    {
+        Vector3 offset = Vector2.up * activeEnemyDamageCanvases.Count * damageTextOffset;
+        var canvasObject = Instantiate(canvasWithDamageText, transform.position + offset, Quaternion.identity);
+        activeEnemyDamageCanvases.Add(canvasObject.gameObject);
+        var textObject = canvasObject.transform.GetChild(0).GetComponent<TMP_Text>();
+        textObject.text = _damage;
+        textObject.faceColor = Color.white;
+        StartCoroutine(DestroyAndRemove(canvasObject.gameObject, 4));
+    }
     IEnumerator DestroyAndRemove(GameObject _object, int delay)
     {
         yield return new WaitForSeconds(delay);

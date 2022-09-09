@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Graze : MonoBehaviour
 {
+    [SerializeField] AudioClip grazeSound;
     [SerializeField] float fadeSpeed = 0.01f;
 
     List<Bullet> grazedBullets = new List<Bullet>();
@@ -34,6 +35,7 @@ public class Graze : MonoBehaviour
     }
     void GrazeBullet()
     {
+        battleManager.PlayPitchedSound(grazeSound, 1.2f);
         spriteRenderer.color = new Color(spriteRenderer.color.r, spriteRenderer.color.g, spriteRenderer.color.b, 1);
         battleManager.AddTP(0.5f);
     }

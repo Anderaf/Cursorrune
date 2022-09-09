@@ -5,18 +5,38 @@ using UnityEngine.UI;
 
 public class SoulController : MonoBehaviour
 {
-    public float sensitivity = 1;
+    [SerializeField] AudioClip hurtSound;
 
+    public float sensitivity = 1;
     float mouseX;
     float mouseY;
+
     bool inControl = true;
+    bool hurtAnimation;
+
     Vector3 battleStartPosition;
-    Vector2 mousePosition;
-    Rigidbody2D soulRigidbody;
-    CursorFollow dotCursor;
     Vector3 krisSoulSpot;
+    Vector2 mousePosition;
+
+    Color initialColor;
+
+    Rigidbody2D soulRigidbody;
+    CursorFollow dotCursor;   
+    SpriteRenderer spriteRenderer;
+    BattleManager battleManager;
+ 
+    [Header("Hurt Animation")]
+    public float hurtAnimationTime = 0.3f;
+    float hurtAnimationTimer;
+
+    public float invincibilityTime = 2f;
+ 
     void Start()
     {
+        battleManager = FindObjectOfType<BattleManager>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        initialColor = spriteRenderer.color;
+        hurtAnimationTimer = hurtAnimationTime;
         soulRigidbody = GetComponent<Rigidbody2D>();
 
         //Cursor.lockState = CursorLockMode.Locked;
@@ -35,7 +55,18 @@ public class SoulController : MonoBehaviour
         if (inControl)
         {
             MoveSoul();
-        }    
+        }
+
+
+        if (hurtAnimation)
+        {
+            hurtAnimationTimer -= Time.deltaTime;
+            if (hurtAnimationTimer <= 0)
+            {
+                HurtAnimationColorSwitch();
+                hurtAnimationTimer = hurtAnimationTime;
+            }
+        }
     }
     void MoveSoul()
     {
@@ -107,5 +138,35 @@ public class SoulController : MonoBehaviour
         Color color = gameObject.GetComponent<SpriteRenderer>().color;
         color.a = 0;
         gameObject.GetComponent<SpriteRenderer>().color = color;
+    }
+    void HurtAnimationColorSwitch()
+    {
+        float colorDifference = 0.2f;
+        if (spriteRenderer.color == initialColor)
+        {
+            spriteRenderer.color = new Color(spriteRenderer.color.r - colorDifference, spriteRenderer.color.g - colorDifference, spriteRenderer.color.b - colorDifference, spriteRenderer.color.a);
+        }
+        else
+        {
+            spriteRenderer.color = initialColor;
+        }
+    }
+    public void TakeDamage(int _damage)
+    {
+        if (!hurtAnimation)
+        {
+            battleManager.soundPlayer.PlayOneShot(hurtSound);
+            HurtAnimationColorSwitch();
+            battleManager.TakeDamage(_damage);
+            StartCoroutine(HurtSwitchCoroutine());
+        }        
+    }
+    IEnumerator HurtSwitchCoroutine()
+    {
+        hurtAnimation = true;
+        yield return new WaitForSeconds(invincibilityTime);
+        hurtAnimation = false;
+        hurtAnimationTimer = hurtAnimationTime;
+        spriteRenderer.color = initialColor;
     }
 }

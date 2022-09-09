@@ -6593,8 +6593,8 @@ TextureImporter:
         y: 4222
         width: 51
         height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6694,12 +6694,12 @@ TextureImporter:
       name: PC Computer - Deltarune - Susie_193
       rect:
         serializedVersion: 2
-        x: 773
+        x: 760
         y: 4220
-        width: 47
+        width: 60
         height: 48
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9764,8 +9764,8 @@ TextureImporter:
         y: 3119
         width: 53
         height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 6
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
