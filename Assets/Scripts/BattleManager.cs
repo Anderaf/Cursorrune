@@ -22,6 +22,7 @@ public class BattleManager : MonoBehaviour
     [SerializeField] AudioClip attackSound;
 
     public ParticleSystem healFX;
+    List<AttackScript> attacksRunning = new List<AttackScript>();
 
     CharacterManager[] characters = new CharacterManager[3];
     bool[] targetedCharacters = new bool[3] {true, true, true };
@@ -36,7 +37,6 @@ public class BattleManager : MonoBehaviour
         {
             characters[_characters[i].GetId()] = _characters[i];
         }
-        tpValue = 50;
     }
     public void TakeDamage(int _damage)
     {
@@ -82,8 +82,6 @@ public class BattleManager : MonoBehaviour
             tpValue = 100;
         }
         tpText.text = Mathf.FloorToInt(tpValue).ToString();
-
-        Debug.Log("+" + value + "TP");
     }
     public void DrainTP(int value)
     {
@@ -97,8 +95,6 @@ public class BattleManager : MonoBehaviour
             tpValue = 100;
         }
         tpText.text = Mathf.FloorToInt(tpValue).ToString();
-
-        Debug.Log("-" + value + "TP");
     }
     public CharacterManager GetCharacter(int id)
     {
@@ -173,9 +169,50 @@ public class BattleManager : MonoBehaviour
     void StartEnemyTurn()
     {
         FindObjectOfType<BulletBoxController>().StartSpawnAnimation();
+        StartCoroutine(StartEnemyTurnCoroutine());
+    }
+    void StopEnemyTurn()
+    {
+        FindObjectOfType<BulletBoxController>().StartDespawnAnimation();
+        foreach (var _character in characters)
+        {
+            _character.DefendExit();
+            _character.PrepareForATurn();
+        }
+        currentMenu = 0;
+        menus[currentMenu].Open();
+    }
+    public void CheckAttacks()
+    {
+        int counter = 0;
+        Debug.Log("Checking attacks...");
+        var attacks = FindObjectsOfType<AttackScript>();
+        for (int i = 0; i < attacks.Length; i++)
+        {
+            if (attacks[i].started == true)
+            {
+                counter++;
+            }
+        }
+        
+        Debug.Log(counter + " attacks");
+        if (counter <= 0)
+        {
+            Debug.Log("Stopped attacks");
+            StopEnemyTurn();
+        }
     }
     public void RemoveEnemy(Enemy enemy)
     {
         enemies.Remove(enemy);
+    }
+    IEnumerator StartEnemyTurnCoroutine()
+    {
+        yield return new WaitForSeconds(1);
+        Enemy[] enemies = FindObjectsOfType<Enemy>();
+        foreach (var enemy in enemies)
+        {
+            enemy.RandomAttack(enemies.Length);
+        }
     }
 }

@@ -115,11 +115,19 @@ public class ChoiceMenu : MonoBehaviour
             case ChoiceState.Enemy:
                 if (chosenAct)
                 {
-                    chosenAct.SetTargetId(id);
-                    characters[battleManager.GetCurrentMenuId()].UseAct(chosenAct);
-                    chosenAct = null; //<--
-                    gameObject.SetActive(false);
-                    OnTurnUsed.Invoke();
+                    if (chosenAct.TPCost <= battleManager.tpValue)
+                    {
+                        chosenAct.SetTargetId(id);
+                        characters[battleManager.GetCurrentMenuId()].UseAct(chosenAct);
+                        chosenAct = null; //<--
+                        gameObject.SetActive(false);
+                        OnTurnUsed.Invoke();
+                    }
+                    else
+                    {
+                        Debug.Log("Not enoudh tp to act");
+                    }
+
                 }
                 else if (fight)
                 {
@@ -167,7 +175,7 @@ public class ChoiceMenu : MonoBehaviour
             {
                 itemTexts[i].enabled = true;
                 itemTexts[i].text = characters[CharacterId].GetAct(i).name;
-                itemTexts[i].GetComponent<ShowItemDescription>().description = characters[CharacterId].GetAct(i).description;
+                itemTexts[i].GetComponent<ShowItemDescription>().description = characters[CharacterId].GetAct(i).description + "\n<color=#FFA040>" + characters[CharacterId].GetAct(i).TPCost + "%TP</color>";
             }
             else
             {

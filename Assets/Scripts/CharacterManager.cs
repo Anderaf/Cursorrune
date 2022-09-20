@@ -55,6 +55,10 @@ public class CharacterManager : MonoBehaviour
         initialDefence = defensePercent;
 
     }
+    public void PrepareForATurn()
+    {
+        isTurnUsed = false;
+    }
     public ActObject GetAct(int id)
     {
         if (id < acts.Length)
@@ -119,6 +123,7 @@ public class CharacterManager : MonoBehaviour
     {
         PreItemExit();
         PreActExit();
+        DefendExit();
     }
     public int GetId() 
     {
@@ -126,11 +131,15 @@ public class CharacterManager : MonoBehaviour
     }
     public void UseItem(ItemObject item)
     {
-        Item();
-        Debug.Log(item.GetTargetId() + " consumed " + item.name + " that " + item.description);
-        battleManager.GetCharacter(item.GetTargetId()).ConsumeItem(item);
-        PreItemExit();
-        PreActExit();
+        if (!isTurnUsed)
+        {
+            isTurnUsed = true;
+            Item();
+            Debug.Log(item.GetTargetId() + " consumed " + item.name + " that " + item.description);
+            battleManager.GetCharacter(item.GetTargetId()).ConsumeItem(item);
+            PreItemExit();
+            PreActExit();
+        }      
     }
     public void ConsumeItem(ItemObject item)
     {
@@ -272,39 +281,46 @@ public class CharacterManager : MonoBehaviour
         linkedHPText.text = health.ToString();
     }
     public void UseAct(ActObject act)
-    {      
-        Debug.Log(characterName + " used " + act.name + " on entity with id " + act.GetTargetId() + ". That act " + act.description);
-        if (act.TPCost <= battleManager.tpValue)
+    {
+        if (!isTurnUsed)
         {
-            battleManager.DrainTP(act.TPCost);
-            if (!act.useCustomScript)
+            
+            if (act.TPCost <= battleManager.tpValue)
             {
-                Act();
-                if (act.groupSpare)
+                isTurnUsed = true;
+                Debug.Log(characterName + " used " + act.name + " on entity with id " + act.GetTargetId() + ". That act " + act.description);
+
+                battleManager.DrainTP(act.TPCost);
+                if (!act.useCustomScript)
                 {
-                    for (int i = 0; i < battleManager.GetEnemies().Count; i++)
+                    Act();
+                    if (act.groupSpare)
                     {
-                        battleManager.GetEnemy(i).TakeSpare(act.spareValue);
+                        for (int i = 0; i < battleManager.GetEnemies().Count; i++)
+                        {
+                            battleManager.GetEnemy(i).TakeSpare(act.spareValue);
+                        }
+                    }
+                    else
+                    {
+                        battleManager.GetEnemy(act.GetTargetId()).TakeSpare(act.spareValue);
                     }
                 }
                 else
                 {
-                    battleManager.GetEnemy(act.GetTargetId()).TakeSpare(act.spareValue);
+                    var actScript = Instantiate(act.customScript);
+                    actScript.enemies = battleManager.GetEnemies();
+                    actScript.characters = battleManager.GetCharacters();
+                    actScript.actingCharacter = GetComponent<CharacterManager>();
+                    actScript.targetID = act.GetTargetId();
+                    actScript.StartAct();
                 }
-            }
-            else
-            {
-                var actScript = Instantiate(act.customScript);
-                actScript.enemies = battleManager.GetEnemies();
-                actScript.characters = battleManager.GetCharacters();
-                actScript.actingCharacter = GetComponent<CharacterManager>();
-                actScript.targetID = act.GetTargetId();
-                actScript.StartAct();
-            }
-        }
-        
-        
 
+                
+            }
+
+            
+        }
         PreItemExit();
         PreActExit();
     }
@@ -312,20 +328,9 @@ public class CharacterManager : MonoBehaviour
     {
         characterAnimator.SetTrigger("PreSlash");
     }
-    /*public void Slash()
-    {
-        if (!isTurnUsed)
-        {
-            isTurnUsed = true;
-            //onTurnUsed.Invoke();
-            StartCoroutine(SlashCoroutine());
-            PreItemExit();
-            PreActExit();
-        }      
-    }*/
+
     public void Slash(int id)
     {
-        //Slash enemy by id
         Debug.Log("Slashed " + id);
         if (!isTurnUsed)
         {
@@ -344,9 +349,10 @@ public class CharacterManager : MonoBehaviour
     }
     public void Spare(int id)
     {
-        Debug.Log("Spared " + id);
+        Debug.Log("Trying to spare " + id);
         if (!isTurnUsed)
         {
+            Debug.Log("Turn is free, attempting to spare");
             Act();
             isTurnUsed = true;
             var enemy = battleManager.GetEnemy(id);
@@ -389,6 +395,7 @@ public class CharacterManager : MonoBehaviour
         battleManager.AddTP(15);
         PreActExit();
         PreItemExit();
+        characterAnimator.Play("Idle");
         characterAnimator.SetBool("DefendIdle", true);
     }
     public void DefendExit()
@@ -396,30 +403,8 @@ public class CharacterManager : MonoBehaviour
         defensePercent = initialDefence;
         characterAnimator.SetBool("DefendIdle", false);
     }
-    /*public void TakeDamage()
-    {
-        
-    }*/
     public bool CheckIfFallen()
     {
         return characterAnimator.GetBool("Fallen");
     }
-    /*IEnumerator SlashCoroutine()
-    {
-        PreSlash();
-        yield return new WaitForSeconds(1);
-        characterAnimator.SetTrigger("Slash");
-        var enemyHealth = FindObjectOfType<Enemy>();
-        yield return new WaitForSeconds(0.2f);
-        enemyHealth.TakeDamage(damage);
-    }
-    IEnumerator SlashCoroutine(int id)
-    {
-        PreSlash();
-        yield return new WaitForSeconds(1);
-        characterAnimator.SetTrigger("Slash");
-        var enemyHealth = battleManager.GetEnemy(id);
-        yield return new WaitForSeconds(0.2f);
-        enemyHealth.TakeDamage(damage);
-    }*/
 }

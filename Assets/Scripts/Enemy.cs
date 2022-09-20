@@ -13,6 +13,9 @@ public class Enemy : MonoBehaviour
     [Header("Defense")]
     [SerializeField] int defense = 30;
 
+    [Header("Attacks")]
+    [SerializeField] AttackScript[] attacks;
+
     [Header("Data")]
     [SerializeField] int usedTurns;
     [SerializeField] int spare;
@@ -67,7 +70,12 @@ public class Enemy : MonoBehaviour
     {
         if (spare >= 100)
         {
+            Debug.Log("Spared succesfully");
             Leave();
+        }
+        else
+        {
+            Debug.Log("Not enough mercy points to spare the enemy");
         }
     }
     public void TakeSpare(int _spare)
@@ -151,5 +159,22 @@ public class Enemy : MonoBehaviour
     {
         spareText.text = spare.ToString() + "%";
         spareSlider.value = spare;
+    }
+    public void RandomAttack()
+    {
+        var attack = attacks[Random.Range(0, attacks.Length)];
+        Instantiate(attack);
+        var spawnedAttack = Instantiate(attack).GetComponent<AttackScript>();
+        spawnedAttack.StartAttack();
+    }
+    public void RandomAttack(int difficulty)
+    {
+        int random = Random.Range(0, attacks.Length);
+        //Debug.Log(random);
+        var attack = attacks[random];
+        
+        var spawnedAttack = Instantiate(attack).GetComponent<AttackScript>();
+        spawnedAttack.SetDifficulty(difficulty);
+        spawnedAttack.StartAttack();
     }
 }

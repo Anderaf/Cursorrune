@@ -9,6 +9,8 @@ public class Bullet : MonoBehaviour
     public float lifeTime = 15;
     public Transform target;
     Transform thisTransform;
+
+    float jitter = 0.001f;
     void Start()
     {
         Destroy(gameObject, lifeTime);
@@ -21,6 +23,10 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
+        
+        thisTransform.position += new Vector3(0, 0, jitter);
+        jitter *= -1;
+
         thisTransform.position += thisTransform.right * speed * Time.deltaTime;
     }
     private void OnTriggerStay2D(Collider2D collision)
